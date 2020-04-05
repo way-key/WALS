@@ -1,0 +1,220 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+.mv-title, .nav-list-item {
+	font-family:'Raleway', sans-serif ;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+/*-----header-----*/
+
+header {
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+}
+.logo {
+	height: 70px;
+	float: left;
+}
+.nav-list-item {
+	list-style: none;
+	margin: 0 30px;
+	font-size: 16px;
+	color: #FAFAFA;
+	line-height: 70px;
+	display: inline-block;
+}
+/*リストが右に寄っていない*/
+/*リストのフォントがおかしい*/
+
+/*-----header-image-----*/
+
+.header-image {
+	width: 100%;
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+}
+.mv-title {
+	width: 100%;
+	padding-top: 200px;
+	font-size: 64px;
+	color: #FAFAFA;
+	text-align: center;
+}
+.mv-text {
+	width: 100%;
+	padding-top: 10px;
+	text-align: center;
+	color: #FAFAFA;
+}
+
+/*-----section共通項目-----*/
+
+.section-title {
+	padding-top: 90px;
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+}
+
+.section-title:after {
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+	background-color: #EC715F;
+}
+
+.section-text {
+	padding: 30px 0 30px 0;
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+}
+
+/*-----Portfolio-----*/
+
+#Portfolio {
+	background-color: #ECEFF1;
+}
+.production-group {
+	width: 920px;
+	padding-bottom: 90px;
+	margin: 0 auto;
+}
+.portfolio-box {
+	width: 300px;
+	height: 250px;
+	margin: 10px 10px 0 0;
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+.portfolio-box:nth-child(1) {
+	background-image: url(img/sketch.jpg);
+}
+.portfolio-box:nth-child(2) {
+	background-image: url(img/websuku.png);
+}
+.portfolio-box:nth-child(3) {
+	background-image: url(img/write.jpg);
+}
+.portfolio-box:nth-child(4) {
+	background-image: url(img/webcamp.png);
+}
+.portfolio-box:nth-child(5) {
+	background-image: url(img/talk.jpg);
+}
+.portfolio-box:nth-child(6) {
+	background-image: url(img/webcamp-mother.png);
+}
+.portfolio-box:nth-child(3n) {
+	margin-right: 0;
+}
+.portfolio-box:nth-child(-n+3) {
+	margin-top: 0;
+}
+
+/*-----Feature-----*/
+
+#Feature {
+	padding: 90px 0 90px 0;
+}
+.feature-group:after {
+	width: 920px;
+	margin: 0 auto;
+	padding-bottom: 90px;
+}
+.feature-box {
+	width: auto 320px;
+	padding-right: 10px;
+	text-align: center;
+	float: left;
+}
+.feature-box:last-child {
+	padding-right: 0;
+}
+i {
+	font-size: 60px;
+}
+.Strength-title {
+	padding: 10px 0 10px 0;
+	font-size: 20px;
+	color: #000000;
+}
+.Strength-text {
+	text-align: left;
+	font-size: 16px;
+	color: #000000;
+}
+
+/*-----Profile-----*/
+
+#Profile {
+	background-color: #ECEFF1;
+	padding-bottom: 90px;
+}
+
+
+.profile-left {
+	width: 512px;
+	float: left;
+}
+
+.profile-image {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin: 0 auto;
+	background-image: url(img/my-icon.jpg);
+}
+.profile-right {
+	width: 512px;
+	float:right;
+}
+
+.profile-title {
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+.myname-text {
+	font-size: 16px;
+	color: #000000;
+	padding-bottom: 20px;
+}
+.myskils-text {
+	font-size: 16px;
+	color: #000000;
+}
+
+/*-----footer-----*/
+
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: #EC715F;
+}
+
+footer p {
+	text-align: center;
+	line-height: 60px;
+	font-size: 16px;
+	color: #FAFAFA;
+}
