@@ -6,8 +6,10 @@
 	portfolio/Feature/Profileの作成  
 	各項目の共通classを整理  
   
+ - [Uodate]2020/4/7  
+ 	Contacrの作成
+ 	navリストのレイアウト修正
+
 - [残り]
-	Contactの作成  
 	レスポンシブ対応  
-	navのデザイン変更  
 
