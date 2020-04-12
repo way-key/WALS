@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, intial-scale=1.0">
 	<script src="https://kit.fontawesome.com/300e1bd50b.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
 	<title>WALS成果物</title>
 </head>
 <body>
@@ -13,15 +13,33 @@
 			<img class="logo" src="img/logo.png">
 			<nav>
 				<ul class="nav-list">
-					<li class="nav-list-item"><a href="">Portfolio</a></li>
-					<li class="nav-list-item"><a href="">Feature</a></li>
-					<li class="nav-list-item"><a href="">Profile</a></li>
+					<li class="nav-list-item"><a href="#Portfolio">Portfolio</a></li>
+					<li class="nav-list-item"><a href="#Feature">Feature</a></li>
+					<li class="nav-list-item"><a href="#Profile">Profile</a></li>
 				</ul>
 			</nav>
+				<!-- ハンバーガーメニュー欄 -->
+			<div id="sp-menu">
+				<h2>MENU</h2>
+				<ul>
+					<li><a href="#Portfolio">Portfolio</a></li>
+					<li><a href="#Feature">Feature</a></li>
+					<li><a href="#Profile">Profile</a></li>
+				</ul>
+			</div>
+
+			<div id="hm-icon">
+				<a class="menu-trigger" href="#">
+					<span></span>
+					<span></span>
+					<span></span>
+				</a>
+			</div>
+				<!-- ハンバーガーメニュー欄 -->
 		</div>
 	</header>
 	<main>
-		<section class="header-image">
+		<section class="header-image container">
 			<div class="container">
 				<h1 class="mv-title">Lorem Ipsum</h1>
 				<p class="mv-text">simply dummy text of the printing</p>
@@ -105,7 +123,7 @@
 				<p class="section-text">
 					It is a long established fact that a reader will be distracted by the readable<br>
 					content of a page when looking at its layout.<br>
-					The point of using Lorem Ipsum is that it has a more-or-less normal desribution of letters<br>
+					The point of using Lorem Ipsum is that it has a more-or-less normal desribution of letters
 				</p>
 				<div class="profile-group clearfix">
 					<div class="profile-left">
@@ -128,10 +146,40 @@
 				</div>
 			</div>
 		</section>
-		<section id="Contact"></section>
+		<section id="Contact">
+			<div class="contact clearfix">
+				<h2 class="section-title">Contact</h2>
+				<p class="section-text">
+					It is a long established fact that a reader will be distracted by the readable<br>
+					content of a page when looking at its layout.<br>
+					The point of using Lorem Ipsum is that it has a more-or-less normal desribution of letters
+				</p>
+				<div class="contact-group clearfix">
+					<div class="contact-left">
+						<div class="contact-left-content">
+							<h3 class="contact-title">Mail</h3>
+							<p class="contact-text">xxx@xxx.com</p>
+							<h3 class="contact-title">Tel</h3>
+							<p class="contact-text">000-0000-0000</p>
+						</div>
+					</div>
+					<div class="contact-right">
+						<div class="contact-right-content">
+							<h2 class="contact-title">SNS</h2>
+							<i class="fa fa-facebook"></i>
+							<i class="fa fa-twitter"></i>
+							<i class="fa fa-instagram"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
 	<footer>
 		<p>© 2017 WebCamp</p>
 	</footer>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
